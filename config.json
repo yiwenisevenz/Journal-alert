@@ -1,6 +1,6 @@
 {
   "project": {
-    "name": "大气环境文献日报",
+    "name": "AI辅助阻燃材料构效关系文献日报",
     "timezone": "Asia/Shanghai"
   },
   "window": {
@@ -30,264 +30,92 @@
   },
   "keywords": [
     {
-      "label": "空气污染",
+      "label": "阻燃材料",
+      "weight": 5,
       "main": true,
-      "weight": 3,
       "terms": [
-        "air pollution",
-        "air pollutant",
-        "air pollutants",
-        "air quality",
-        "particulate matter",
-        "pm2.5",
-        "pm10",
-        "ultrafine particle",
-        "ultrafine particles",
-        "aerosol",
-        "aerosols",
-        "ozone",
-        "no2",
-        "so2",
-        "haze",
-        "smog",
-        "emission inventory",
-        "emission inventories",
-        "anthropogenic emission",
-        "anthropogenic emissions",
-        "exposure assessment",
-        "exposure assessments"
+        "flame retardant",
+        "flame retardants",
+        "flame retardancy",
+        "fire retardant",
+        "fire retardancy",
+        "fire safety",
+        "阻燃"
       ]
     },
     {
-      "label": "遥感",
+      "label": "环氧与阻燃结构",
+      "weight": 2,
       "main": true,
-      "weight": 3,
       "terms": [
-        "remote sensing",
-        "satellite",
-        "satellites",
-        "satellite observation",
-        "satellite observations",
-        "modis",
-        "viirs",
-        "tropomi",
-        "omi",
-        "landsat",
-        "sentinel-5p",
-        "hyperspectral",
-        "lidar",
-        "retrieval algorithm",
-        "retrieval algorithms",
-        "geostationary",
-        "aerosol optical depth",
-        "aod"
+        "epoxy",
+        "epoxy resin",
+        "DOPO",
+        "phosphorus-containing",
+        "phosphorus nitrogen",
+        "intumescent"
       ]
     },
     {
-      "label": "大气化学",
+      "label": "机理与证据",
+      "weight": 2,
       "main": true,
-      "weight": 3,
       "terms": [
-        "atmospheric chemistry",
-        "atmospheric oxidation",
-        "photochemistry",
-        "photochemical",
-        "secondary organic aerosol",
-        "secondary organic aerosols",
-        "soa",
-        "nox",
-        "voc",
-        "vocs",
-        "volatile organic",
-        "chemical transport model",
-        "chemical transport models",
-        "heterogeneous chemistry",
-        "atmospheric lifetime",
-        "atmospheric lifetimes",
-        "radical chemistry",
-        "oh radical",
-        "oh radicals"
+        "flame retardant mechanism",
+        "flame-retardant mechanism",
+        "gas phase",
+        "condensed phase",
+        "char formation",
+        "radical scavenging",
+        "TG-FTIR",
+        "pyrolysis",
+        "cone calorimeter"
       ]
     },
     {
-      "label": "生物地球化学",
-      "main": true,
+      "label": "构效关系与AI",
       "weight": 3,
+      "main": true,
       "terms": [
-        "biogeochemistry",
-        "biogeochemical",
-        "carbon cycle",
-        "carbon cycles",
-        "nitrogen cycle",
-        "nitrogen cycles",
-        "nutrient cycling",
-        "methane",
-        "ch4 flux",
-        "ch4 fluxes",
-        "co2 flux",
-        "co2 fluxes",
-        "carbon flux",
-        "carbon fluxes",
-        "terrestrial carbon",
-        "soil carbon",
-        "nitrous oxide",
-        "n2o"
+        "structure-property",
+        "structure–property",
+        "machine learning",
+        "materials informatics",
+        "graph neural network",
+        "explainable artificial intelligence",
+        "inverse design",
+        "active learning"
       ]
     },
     {
-      "label": "温室气体",
+      "label": "知识图谱与因果推理",
+      "weight": 4,
       "main": true,
-      "weight": 3,
       "terms": [
-        "greenhouse gas",
-        "greenhouse gases",
-        "greenhouse gas emissions",
-        "ghg",
-        "ghg emission",
-        "ghg emissions",
-        "carbon dioxide",
-        "co2",
-        "co2 emission",
-        "co2 emissions",
-        "carbon emission",
-        "carbon emissions",
-        "methane",
-        "ch4",
-        "nitrous oxide",
-        "n2o",
-        "radiative forcing",
-        "global warming potential",
-        "gwp",
-        "carbon budget",
-        "carbon budgets",
-        "carbon neutrality",
-        "net zero",
-        "net-zero",
-        "greenhouse effect",
-        "atmospheric co2",
-        "atmospheric methane",
-        "fossil fuel emission",
-        "fossil fuel emissions"
+        "knowledge graph",
+        "knowledge graphs",
+        "ontology",
+        "causal inference",
+        "knowledge representation",
+        "knowledge-guided",
+        "physics-informed"
       ]
     },
     {
-      "label": "极端天气",
+      "label": "智能体与文献提取",
+      "weight": 3,
       "main": true,
-      "weight": 3,
       "terms": [
-        "extreme weather",
-        "weather extreme",
-        "weather extremes",
-        "extreme event",
-        "extreme events",
-        "climate extreme",
-        "climate extremes",
-        "extreme heat",
-        "heatwave",
-        "heatwaves",
-        "heat wave",
-        "heat waves",
-        "cold spell",
-        "cold spells",
-        "cold wave",
-        "cold waves",
-        "cold surge",
-        "cold surges",
-        "extreme precipitation",
-        "heavy precipitation",
-        "extreme rainfall",
-        "heavy rainfall",
-        "drought",
-        "droughts",
-        "megadrought",
-        "flash drought",
-        "flood",
-        "floods",
-        "flooding",
-        "flood risk",
-        "tropical cyclone",
-        "tropical cyclones",
-        "hurricane",
-        "hurricanes",
-        "typhoon",
-        "typhoons",
-        "storm surge",
-        "storm surges",
-        "severe storm",
-        "severe storms",
-        "thunderstorm",
-        "thunderstorms",
-        "wildfire",
-        "wildfires",
-        "bushfire",
-        "bushfires",
-        "compound event",
-        "compound events",
-        "atmospheric river",
-        "atmospheric rivers"
-      ]
-    },
-    {
-      "label": "城市地理信息系统",
-      "weight": 3,
-      "terms": [
-        "gis",
-        "geographic information system",
-        "geographic information systems",
-        "geographic information science",
-        "geospatial",
-        "geospatial data",
-        "spatial analysis",
-        "spatial data infrastructure",
-        "urban morphology",
-        "urban form",
-        "urban structure",
-        "urban fabric",
-        "land use",
-        "land cover",
-        "land-use",
-        "land use and land cover",
-        "lulc",
-        "urban expansion",
-        "urban growth",
-        "urban sprawl",
-        "urbanization",
-        "urbanisation",
-        "impervious surface",
-        "impervious surfaces",
-        "built-up area",
-        "built-up areas",
-        "urban extent",
-        "building height",
-        "building footprint",
-        "building footprints",
-        "building density",
-        "building morphology",
-        "street view",
-        "street network",
-        "street networks",
-        "street canyon",
-        "street canyons",
-        "openstreetmap",
-        "points of interest",
-        "urban functional zone",
-        "urban land",
-        "urban planning",
-        "urban design",
-        "urban development",
-        "3d city model",
-        "3d city models",
-        "city model",
-        "city models",
-        "citygml",
-        "digital twin",
-        "digital twins",
-        "local climate zone",
-        "local climate zones",
-        "urban agglomeration",
-        "urban agglomerations",
-        "geocoding",
-        "spatial autocorrelation"
+        "large language model",
+        "large language models",
+        "multi-agent",
+        "AI agent",
+        "autonomous agent",
+        "retrieval augmented generation",
+        "retrieval-augmented generation",
+        "scientific information extraction",
+        "materials data extraction",
+        "multimodal"
       ]
     }
   ],
@@ -309,152 +137,98 @@
     "10.1038/d41586"
   ],
   "tiers": {
-    "must_read": 12,
-    "worth_reading": 6,
-    "min_score": 3
+    "must_read": 24,
+    "worth_reading": 15,
+    "min_score": 9
   },
   "journals": [
     {
-      "name": "Nature",
-      "issn": "0028-0836",
-      "rss": "https://www.nature.com/nature.rss",
+      "name": "Polymer Degradation and Stability",
+      "issn": "0141-3910",
+      "rss": "",
       "enabled": true
     },
     {
-      "name": "Science",
-      "issn": "0036-8075",
-      "rss": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+      "name": "Chemical Engineering Journal",
+      "issn": "1385-8947",
+      "rss": "",
       "enabled": true
     },
     {
-      "name": "Nature Climate Change",
-      "issn": "1758-6798",
-      "rss": "https://www.nature.com/nclimate.rss",
+      "name": "Composites Part B: Engineering",
+      "issn": "1359-8368",
+      "rss": "",
       "enabled": true
     },
     {
-      "name": "Nature Geoscience",
-      "issn": "1752-0908",
-      "rss": "https://www.nature.com/ngeo.rss",
+      "name": "Polymer",
+      "issn": "0032-3861",
+      "rss": "",
       "enabled": true
     },
     {
-      "name": "Nature Sustainability",
-      "issn": "2398-9629",
-      "rss": "https://www.nature.com/natsustain.rss",
+      "name": "Progress in Polymer Science",
+      "issn": "0079-6700",
+      "rss": "",
       "enabled": true
     },
     {
-      "name": "Nature Cities",
-      "issn": "2731-9997",
-      "rss": "https://www.nature.com/natcities.rss",
+      "name": "Fire Safety Journal",
+      "issn": "0379-7112",
+      "rss": "",
+      "enabled": true
+    },
+    {
+      "name": "Materials & Design",
+      "issn": "0264-1275",
+      "rss": "",
+      "enabled": true
+    },
+    {
+      "name": "Computational Materials Science",
+      "issn": "0927-0256",
+      "rss": "",
+      "enabled": true
+    },
+    {
+      "name": "Advanced Materials",
+      "issn": "0935-9648",
+      "rss": "",
+      "enabled": true
+    },
+    {
+      "name": "ACS Applied Materials & Interfaces",
+      "issn": "1944-8244",
+      "rss": "",
+      "enabled": true
+    },
+    {
+      "name": "Macromolecules",
+      "issn": "0024-9297",
+      "rss": "",
+      "enabled": true
+    },
+    {
+      "name": "npj Computational Materials",
+      "issn": "2057-3960",
+      "rss": "",
+      "enabled": true
+    },
+    {
+      "name": "Nature Machine Intelligence",
+      "issn": "2522-5839",
+      "rss": "",
       "enabled": true
     },
     {
       "name": "Nature Communications",
       "issn": "2041-1723",
-      "rss": "https://www.nature.com/ncomms.rss",
-      "enabled": true
-    },
-    {
-      "name": "Science Advances",
-      "issn": "2375-2548",
-      "rss": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv",
-      "enabled": true
-    },
-    {
-      "name": "Earth's Future",
-      "issn": "2328-4277",
-      "rss": "https://agupubs.onlinelibrary.wiley.com/feed/23284277/most-recent",
-      "enabled": true
-    },
-    {
-      "name": "Atmospheric Chemistry and Physics",
-      "issn": "1680-7324",
-      "rss": "https://acp.copernicus.org/xml/rss2_0.xml",
-      "enabled": true
-    },
-    {
-      "name": "Environmental Science & Technology",
-      "issn": "0013-936X",
       "rss": "",
       "enabled": true
     },
     {
-      "name": "Environmental Research Letters",
-      "issn": "1748-9326",
-      "rss": "https://iopscience.iop.org/journal/rss/1748-9326",
-      "enabled": true
-    },
-    {
-      "name": "Geophysical Research Letters",
-      "issn": "1944-8007",
-      "rss": "https://agupubs.onlinelibrary.wiley.com/feed/19448007/most-recent",
-      "enabled": true
-    },
-    {
-      "name": "Journal of Geophysical Research: Atmospheres",
-      "issn": "2169-8996",
-      "rss": "https://agupubs.onlinelibrary.wiley.com/feed/21698996/most-recent",
-      "enabled": true
-    },
-    {
-      "name": "Atmospheric Environment",
-      "issn": "1352-2310",
-      "rss": "https://rss.sciencedirect.com/publication/science/13522310",
-      "enabled": true
-    },
-    {
-      "name": "Remote Sensing of Environment",
-      "issn": "0034-4257",
-      "rss": "https://rss.sciencedirect.com/publication/science/00344257",
-      "enabled": true
-    },
-    {
-      "name": "Computers, Environment and Urban Systems",
-      "issn": "0198-9715",
-      "rss": "https://rss.sciencedirect.com/publication/science/01989715",
-      "enabled": true
-    },
-    {
-      "name": "Landscape and Urban Planning",
-      "issn": "0169-2046",
-      "rss": "https://rss.sciencedirect.com/publication/science/01692046",
-      "enabled": true
-    },
-    {
-      "name": "Urban Climate",
-      "issn": "2212-0955",
-      "rss": "https://rss.sciencedirect.com/publication/science/22120955",
-      "enabled": true
-    },
-    {
-      "name": "Cities",
-      "issn": "0264-2751",
-      "rss": "https://rss.sciencedirect.com/publication/science/02642751",
-      "enabled": true
-    },
-    {
-      "name": "ISPRS Journal of Photogrammetry and Remote Sensing",
-      "issn": "0924-2716",
-      "rss": "https://rss.sciencedirect.com/publication/science/09242716",
-      "enabled": true
-    },
-    {
-      "name": "International Journal of Geographical Information Science",
-      "issn": "1365-8816",
-      "rss": "",
-      "enabled": true
-    },
-    {
-      "name": "Transactions in GIS",
-      "issn": "1361-1682",
-      "rss": "",
-      "enabled": true
-    },
-    {
-      "name": "Environment and Planning B: Urban Analytics and City Science",
-      "issn": "2399-8083",
+      "name": "Scientific Data",
+      "issn": "2052-4463",
       "rss": "",
       "enabled": true
     }
@@ -462,7 +236,7 @@
   "push": {
     "enabled": true,
     "skip_when_empty": true,
-    "max_items": 6,
+    "max_items": 8,
     "max_chars": 1800,
     "channels": {
       "serverchan": {
@@ -470,7 +244,7 @@
         "sendkey": ""
       },
       "pushplus": {
-        "enabled": true,
+        "enabled": false,
         "token": ""
       },
       "bark": {
