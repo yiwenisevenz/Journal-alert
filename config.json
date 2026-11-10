@@ -248,7 +248,7 @@
         "token": ""
       },
       "bark": {
-        "enabled": ture,
+        "enabled": true,
         "key": "",
         "server": "https://api.day.app",
         "sound": "bird"
