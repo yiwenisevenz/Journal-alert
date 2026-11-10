@@ -1,6 +1,6 @@
 {
   "project": {
-    "name": "AI辅助阻燃材料构效关系文献日报",
+    "name": "AI与材料知识图谱文献日报",
     "timezone": "Asia/Shanghai"
   },
   "window": {
@@ -29,49 +29,6 @@
     "cards_html": "docs/index.html"
   },
   "keywords": [
-    {
-      "label": "阻燃材料",
-      "weight": 5,
-      "main": true,
-      "terms": [
-        "flame retardant",
-        "flame retardants",
-        "flame retardancy",
-        "fire retardant",
-        "fire retardancy",
-        "fire safety",
-        "阻燃"
-      ]
-    },
-    {
-      "label": "环氧与阻燃结构",
-      "weight": 2,
-      "main": true,
-      "terms": [
-        "epoxy",
-        "epoxy resin",
-        "DOPO",
-        "phosphorus-containing",
-        "phosphorus nitrogen",
-        "intumescent"
-      ]
-    },
-    {
-      "label": "机理与证据",
-      "weight": 2,
-      "main": true,
-      "terms": [
-        "flame retardant mechanism",
-        "flame-retardant mechanism",
-        "gas phase",
-        "condensed phase",
-        "char formation",
-        "radical scavenging",
-        "TG-FTIR",
-        "pyrolysis",
-        "cone calorimeter"
-      ]
-    },
     {
       "label": "构效关系与AI",
       "weight": 3,
@@ -139,9 +96,32 @@
   "tiers": {
     "must_read": 24,
     "worth_reading": 15,
-    "min_score": 9
+    "min_score": 9,
+    "priority_journals": [
+      "Nature Machine Intelligence",
+      "Nature Computational Science",
+      "Nature Communications"
+    ]
   },
   "journals": [
+    {
+      "name": "Nature Machine Intelligence",
+      "issn": "2522-5839",
+      "rss": "https://www.nature.com/natmachintell.rss",
+      "enabled": true
+    },
+    {
+      "name": "Nature Computational Science",
+      "issn": "2662-8457",
+      "rss": "https://www.nature.com/natcomputsci.rss",
+      "enabled": true
+    },
+    {
+      "name": "Nature Communications",
+      "issn": "2041-1723",
+      "rss": "https://www.nature.com/ncomms.rss",
+      "enabled": true
+    },
     {
       "name": "Polymer Degradation and Stability",
       "issn": "0141-3910",
@@ -211,18 +191,6 @@
     {
       "name": "npj Computational Materials",
       "issn": "2057-3960",
-      "rss": "",
-      "enabled": true
-    },
-    {
-      "name": "Nature Machine Intelligence",
-      "issn": "2522-5839",
-      "rss": "",
-      "enabled": true
-    },
-    {
-      "name": "Nature Communications",
-      "issn": "2041-1723",
       "rss": "",
       "enabled": true
     },

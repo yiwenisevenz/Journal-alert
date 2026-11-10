@@ -82,7 +82,7 @@ def hydrate_entries(records: list[dict]) -> list[dict]:
 
 
 def sort_entries(entries: list[dict], tiers: dict, today: str = "") -> list[dict]:
-    """Tier first, then score, then newest first. Future-dated issues are clamped."""
+    """Preferred journals first, then tier, score and publication date."""
     reference = today or date.today().isoformat()
 
     def key(entry):
@@ -94,7 +94,9 @@ def sort_entries(entries: list[dict], tiers: dict, today: str = "") -> list[dict
             ordinal = -date.fromisoformat(stamp).toordinal()
         except ValueError:
             ordinal = 0
+        preferred = tiers.get("priority_journals", [])
         return (
+            0 if item.journal in preferred else 1,
             TIER_RANK.get(tier_of(entry["scored"].score, tiers), 3),
             -entry["scored"].score,
             ordinal,
